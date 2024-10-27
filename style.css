@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img, svg, lottie-player, gif, video {
+    display: block;
+    width: 100%;
+}
+
+
+.intro-placeholder, .outro-placeholder {
+  min-height: 100vh;
+}
+
+
+.section__video{
+    height: 300vh;
+    position: relative;
+    background-color: pink;
+  }
+
+  .holder {
+    position: sticky;
+    top: 0;
+  }
+
+
+video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
